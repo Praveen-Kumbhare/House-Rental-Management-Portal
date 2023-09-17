@@ -1,0 +1,25 @@
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  .house-image {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .table {
+      font-size: 14px;
+    }
+    .house-image {
+      max-width: 50px;
+    }
+  }
+  
